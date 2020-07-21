@@ -50,9 +50,9 @@ var DeckARemainingF = "";
 			</div>
 			<div class="w3-quarter w3-right">
 				<!-- IMAGES FOR SONG STATUS -->
-				<img id="DeckARedLight" src="https://imperium.sprousewebsitestest.com/media/red-traffic-light.png" title="Song Not Ready to Play" alt="Song Not Ready to Play" height="30pt">
-				<img id="DeckAAmberLight" src="https://imperium.sprousewebsitestest.com/media/amber-traffic-light.png" title="Song Can Play But Not Fully Loaded" alt="Song Can Play But Not Fully Loaded" height="30pt" style="display:none;">
-				<img id="DeckAGreenLight" src="https://imperium.sprousewebsitestest.com/media/green-traffic-light.png" title="Song Fully Loaded" alt="Song Fully Loaded" height="30pt" style="display:none;">
+				<img id="DeckARedLight" src="https://www.sprousewebsitestest.com/imperium/media/red-traffic-light.png" title="Song Not Ready to Play" alt="Song Not Ready to Play" height="30pt">
+				<img id="DeckAAmberLight" src="https://www.sprousewebsitestest.com/imperium/media/amber-traffic-light.png" title="Song Can Play But Not Fully Loaded" alt="Song Can Play But Not Fully Loaded" height="30pt" style="display:none;">
+				<img id="DeckAGreenLight" src="https://www.sprousewebsitestest.com/imperium/media/green-traffic-light.png" title="Song Fully Loaded" alt="Song Fully Loaded" height="30pt" style="display:none;">
 				<!-- END OF SONG STATUS IMAGES -->
 
 				<img id="pictureA" src="" alt="">
@@ -101,9 +101,9 @@ var DeckARemainingF = "";
 			</div>
 			<div class="w3-quarter w3-right">
 				<!-- IMAGES FOR SONG STATUS -->
-				<img id="DeckBRedLight" src="https://imperium.sprousewebsitestest.com/media/red-traffic-light.png" title="Song Not Ready to Play" alt="Song Not Ready to Play" height="30pt">
-				<img id="DeckBAmberLight" src="https://imperium.sprousewebsitestest.com/media/amber-traffic-light.png" title="Song Can Play But Not Fully Loaded" alt="Song Can Play But Not Fully Loaded" height="30pt" style="display:none;">
-				<img id="DeckBGreenLight" src="https://imperium.sprousewebsitestest.com/media/green-traffic-light.png" title="Song Fully Loaded" alt="Song Fully Loaded" height="30pt" style="display:none;">
+				<img id="DeckBRedLight" src="https://www.sprousewebsitestest.com/imperium/media/red-traffic-light.png" title="Song Not Ready to Play" alt="Song Not Ready to Play" height="30pt">
+				<img id="DeckBAmberLight" src="https://www.sprousewebsitestest.com/imperium/media/amber-traffic-light.png" title="Song Can Play But Not Fully Loaded" alt="Song Can Play But Not Fully Loaded" height="30pt" style="display:none;">
+				<img id="DeckBGreenLight" src="https://www.sprousewebsitestest.com/imperium/media/green-traffic-light.png" title="Song Fully Loaded" alt="Song Fully Loaded" height="30pt" style="display:none;">
 				<!-- END OF SONG STATUS IMAGES -->
 
 				<img id="pictureB" src="" alt="">

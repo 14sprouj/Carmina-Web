@@ -38,7 +38,7 @@
 				<a href="settings.php"  class="w3-bar-item w3-button" onmouseover="SettingsHoverStartRotate()" onmouseout="SettingsHoverStopRotate()">
 					<i id="settingiconspin" class="fas fa-cog"></i> Settings
 				</a>
-				<a href="https://imperium.sprousewebsitestest.com/logout.php" class="w3-bar-item w3-button">
+				<a href="https://www.sprousewebsitestest.com/imperium/logout.php" class="w3-bar-item w3-button">
 					<i class="fas fa-sign-out-alt"></i>
 					Logout
 				</a>
