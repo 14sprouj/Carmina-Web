@@ -199,7 +199,7 @@ Song List Loading
 							document.getElementById('DeckAEject').disabled = false;
 							document.getElementById('DeckAAudioEl').volume = volANew;
 							document.getElementById('DeckALengthRange').disabled = false;
-							document.getElementById('pictureA').src = 'https://sprousewebsitestest.com/imperium/songs/".$row['MainArtist']."/".$row['Album']."/".$row['Album'].".jpg';
+							document.getElementById('pictureA').src = 'https://sprousewebsitestest.com/radio/songs/".$row['MainArtist']."/".$row['Album']."/".$row['Album'].".jpg';
 							DeckAPause()
 							getDeckTimes();
 							document.getElementById('DeckAAudioEl').load();
