@@ -8,16 +8,17 @@
 	<a href="sfx" target="_blank">View all sound effects</a>
 
 	<?php
+	echo "<span id=\"StationPath\">hi" . $StationPath . "</span>";
 	$link = mysqli_connect(servername, username, password, dbname);
 	// Create connection
 	// Check connection
-	if(dblink === false){
+	if($link === false){
 		die("ERROR: Could not connect. " . mysqli_connect_error());
 	}
 
 	// Attempt select query execution
 	$sql = "SELECT * FROM jingles WHERE StationPath = '$StationPath'";
-	echo $StationPath;
+
 
 	if($result = mysqli_query($link, $sql)){
 		if(mysqli_num_rows($result) > 0){
@@ -26,7 +27,7 @@
 			while($row = mysqli_fetch_array($result)){
 				$i++;
 				echo "<div class=\"w3-col sw-tenth jingle-box\" title=\"".$row[Description]."\">";
-				echo "<audio id=\"stationjingle1\"  preload=\"auto\" onended=\"stopStationJ1()\" src=\"https://imperium.sprousewebsitestest.com/carmina/jingles/".$StationAbbr."/station/".$i.".mp3\" type=\"audio/mp3\"></audio>";
+				echo "<audio id=\"stationjingle1\"  preload=\"auto\" onended=\"stopStationJ1()\" src=\"https://www.sprousewebsitestest.com/imperium/carmina/jingles/".$StationAbbr."/station/".$i.".mp3\" type=\"audio/mp3\"></audio>";
 				echo "<button type=\"button\" name=\"button\" id=\"stationjingle".$row[id]."play\" onclick=\"playstationjingle".$row[id]."()\" class=\"play-button\"><i class=\"fas fa-play\"></i></button>";
 				echo $row[Name];
 			}
