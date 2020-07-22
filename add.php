@@ -99,7 +99,7 @@ i.required::before {
 		<input type="submit" name="submit" value="submit">
 	</form>
 
-	<script src="https://imperium.sprousewebsitestest.com/js/currency-input.js"></script>
+	<script src="https://www.sprousewebsitestest.com/imperium/js/currency-input.js"></script>
 	<script type="text/javascript">
 	function convertMStoS() {
 		var minin = document.getElementById("minin").value;
