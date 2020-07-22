@@ -1,7 +1,6 @@
 <?php
 $page_name = "View Database";
 include '../includes/config.php';
-include '../includes/session.php';
 include '../includes/head.php';
 ?>
 
